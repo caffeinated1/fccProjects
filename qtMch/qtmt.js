@@ -8,10 +8,10 @@ var quotes = [
   'Be the change you wish to see in the world.— attributed to Mahatma Gandhi',
   'The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.—Bob Marley',
   'Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.— Steve Kloves',
-];
+]
 
 function newQuote () {
-  let random = Math.floor(Math.random() * (quotes.length));
+  let randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quoteDisplay').innerHTML = quotes [randomNumber];
-  
+
 }
